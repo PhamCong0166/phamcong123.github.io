@@ -1,4 +1,472 @@
 *{margin:0;padding:0; }
- 
 
- 
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*nav*/
+.navbar
+{
+	width: 100%;
+	height: 100px;
+	background: #f09b0d;
+	border-radius: 0px;
+	border: none;
+	outline: none;
+	margin-bottom: 0px;
+ }
+ .navbar-default .navbar-nav > li > a {
+  color: black;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-style: italic;
+
+}
+.nav ul
+{
+}
+.navbar li
+{
+   
+    border-left: 1px solid white;
+    height: 100px;
+    width: 145px;
+}
+.navbar li:hover
+{
+	background:#ffb253;		
+}
+.navbar li:hover .fa,.navbar li:hover .nav-intro
+{
+	color:white;
+}
+.fa
+{
+	font-size: 25px;
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+.navbar-brand img
+{
+	width: 243px;
+	height: 130px;
+	position: absolute;
+	top: -10px;
+	left: 40px;
+}
+/*end nav*/
+/*carousel*/
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 658px;
+}
+.bosungcaurousel
+{
+	width: 100%;
+	height: 150px;
+	position: absolute;
+	z-index: 2;
+	bottom: 0px;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  /* width: 20px; */
+  left: 22px;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.bosung1
+{
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	z-index: 2;
+	top: -9px;
+}
+.bosung2
+{
+	height: 120px;
+	background-color: rgba(0, 3, 5, 0.7);
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	border:none;
+	outline: none;
+	border-radius: 0px
+}
+.btn-group
+{
+	width: 100%;	
+}
+.btn button
+{
+	background: rgba(0, 3, 5, 0.7);
+	color: white;
+	border:none;
+	outline: none;
+	border-radius: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+.bosung2 input
+{
+	height: 35px;
+}
+.bosung2 .fa
+{
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.btn-outline-secondary
+{
+	z-index: 200;
+	background: transparent;
+	width: 10%;
+}
+i.fa.fa-arrow-circle-down {
+    color: white;
+}
+/*gioi thieu*/
+.container-fluid .gioithieu {
+}
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+ .container.gioithieu {
+        margin-top: 45px;
+ }
+ .gioithieu .col-xs-6.col-sm-6.col-md-6.col-lg-6 {
+    margin-bottom: 25px;
+}
+/*du lịch trong nước img*/
+.row.dulichtrongnuocimg {
+    margin-bottom: 37px;
+}
+.hinh1
+{
+	background: url(https://images.pexels.com/photos/163185/old-retro-antique-vintage-163185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 247px;
+	height: 198px;
+	position: relative;
+}
+.hinh2
+{
+	background: url(https://images.pexels.com/photos/917511/pexels-photo-917511.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 247px;
+	height: 198px;
+	position: relative;
+}
+.hinh3
+{
+	background: url(https://images.pexels.com/photos/23679/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 247px;
+	height: 198px;
+	position: relative;
+}
+.hinh4
+{
+	background: url(https://images.pexels.com/photos/12057/pexels-photo-12057.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 247px;
+	height: 198px;
+	position: relative;
+}
+.text1
+{
+	border-radius: 9px;
+}
+.text1 .txt
+{
+	position: absolute;
+	bottom: 0px;
+	color: white;
+	font-weight: bold;
+}
+/*end du lịch trong nước img*/
+/*du lịch nước ngoài content/ giới thiệu*/
+.dulichnuocngoaicontent .content a
+{
+	font-size: 30px;
+	font-weight: bold;
+	color:orange;
+}
+.dulichnuocngoaicontent .content p
+{
+	font-size: 15px;
+	font-style: italic;
+	color: gray;
+}
+
+/*end du lịch nước ngoài content/ giới thiệu*/
+/*điểm đến trong nước*/
+.row.diemdentrongnuoc {
+    margin-bottom: 18px;
+}
+.diemdentrongnuoc .hinh1
+{
+	background: url(https://images.pexels.com/photos/1963481/pexels-photo-1963481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: 100% 100%;
+	background-position: center;
+	width: 90px;
+	height: 90px;
+	box-sizing: border-box;
+	border:1px solid black;
+	margin:5px;
+}
+.diemdentrongnuoc .hinh2
+{
+	background: url(https://images.pexels.com/photos/386009/pexels-photo-386009.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	background-size: 100% 100%;
+	background-position: center;
+	width: 90px;
+	height: 90px;
+	box-sizing: border-box;
+	border:1px solid black;
+	margin:5px;
+}
+.diemdentrongnuoc .hinh3
+{
+	background: url(https://images.pexels.com/photos/59519/pexels-photo-59519.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: 100% 100%;
+	background-position: center;
+	width: 90px;
+	height: 90px;
+	box-sizing: border-box;
+	border:1px solid black;
+	margin:5px;
+}
+.diemdentrongnuoc .hinh4
+{
+	background: url(https://images.pexels.com/photos/970203/pexels-photo-970203.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: 100% 100%;
+	background-position: center;
+	width: 90px;
+	height: 90px;
+	box-sizing: border-box;
+	border:1px solid black;
+	margin:5px;
+}
+.diemdentrongnuoc .hinh5
+{
+	background: url(https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: 100% 100%;
+	background-position: center;
+	width: 90px;
+	height: 90px;
+	box-sizing: border-box;
+	border:1px solid black;
+	margin:5px;
+}
+.diemdentrongnuoc .hinh6
+{
+	background: url(https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: 100% 100%;
+	background-position: center;
+	width: 90px;
+	height: 90px;
+	box-sizing: border-box;
+	border:1px solid black;
+	margin:5px;
+}
+.diemdentrongnuoc .hinh7
+{
+	background: url(https://images.pexels.com/photos/915972/pexels-photo-915972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: 100% 100%;
+	background-position: center;
+	width: 90px;
+	height: 90px;
+	box-sizing: border-box;
+	border:1px solid black;
+	margin:5px;
+}
+.diemdentrongnuoc .hinh8
+{
+	background: url(https://images.pexels.com/photos/586687/pexels-photo-586687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
+	background-size: 100% 100%;
+	background-position: center;
+	width: 90px;
+	height: 90px;
+	box-sizing: border-box;
+	border:1px solid black;
+	margin:5px;
+}
+.diemdentrongnuoc .hinh9
+{
+	background: url(https://images.pexels.com/photos/408503/pexels-photo-408503.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: 100% 100%;
+	background-position: center;
+	width: 90px;
+	height: 90px;
+	box-sizing: border-box;
+	border:1px solid black;
+	margin:5px;
+}
+.diemdentrongnuoc .hinh10
+{
+	background: url(https://images.pexels.com/photos/2033447/pexels-photo-2033447.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: 100% 100%;
+	background-position: center;
+	width: 90px;
+	height: 90px;
+	box-sizing: border-box;
+	border:1px solid black;
+	margin:5px;
+}
+.diemdentrongnuoc .hinh p
+{
+	position: absolute;
+	bottom: 0px;
+}
+/*end điểm đến trong nước*/
+/*end giới thiệu*/
+/*banner*/
+.banner
+{
+	height: 144px;
+	background: url(https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: 100% auto;
+	background-attachment:fixed;
+}
+.banner h3
+{
+	position: absolute;
+	bottom: 30%;
+	left: 30%;
+	color: black;
+	font-weight: bold;
+	font-size: 35px;
+}
+.tour .col-xs-12.col-sm-12.col-md-4.col-lg-4 {
+    padding: 0px;
+}
+
+.tour .hinh1
+{
+	background: url(https://images.pexels.com/photos/752370/pexels-photo-752370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	width: 100%;
+	height: 506px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.tour .hinh .fa1
+{
+	color: orange;
+	font-size: 20px;
+	position: absolute;
+	left: 35%;
+	top: 80px;
+}
+.tour .txt
+{
+	position: absolute;
+	bottom: 50%;
+	left: 10%;
+	color:white;
+	font-weight: bold;
+	font-size: 15px;
+}
+.tour .hinh2
+{
+	background: url(https://images.pexels.com/photos/935981/pexels-photo-935981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	width: 100%;
+	height: 506px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.tour .hinh3
+{
+	background: url(https://images.pexels.com/photos/1995784/pexels-photo-1995784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	width: 100%;
+	height: 506px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.dichvu .content
+{
+	margin-bottom: 80px;
+}
+/*endbanner*/
+/*dịch vụ*/
+.dichvu .gach
+{
+	background: orange;
+	width: 300px;
+	height: 3px;
+	margin-top: 30px;
+}
+.dichvu .content a
+{
+	font-size: 25px;
+	text-decoration: none;
+	text-align: center;
+	color: orange;
+}
+.dichvu .content p
+{
+	letter-spacing: 1px;
+	font-size: 15px;
+	font-style: italic;
+}
+.dichvu-main .fa1
+{
+	
+}
+.dichvu-main .fa1 .fa
+{
+	padding: 25px;
+	background: orange;
+	border-radius: 50%;
+	font-size: 50px;
+	position: absolute;
+	color: white;
+	top: -50px;
+	left: 95px;
+    border: 4px solid gray;
+}
+
+/*end dịch vụ*/
+/*footer*/
+/*end footer*/
+/*media screen*/
+@media only screen and (max-width: 768px){
+  .slide{
+      display: none;	
+  }
+}
